@@ -15,7 +15,91 @@
 </head>
 
 <body>
-    <h1 class="text-center">Welcome to Go-Cash-Bank</h1>
+    <div id="welcomePage">
+        <h1 class="text-center mt-4">Welcome to Go-Cash-Bank</h1>
+        <div class="container box-content ">
+            <div class="row ">
+                <div class="col-12">
+                    <form>
+                        <div class="mb-3">
+                            <h5 class="text-center">Login here</h5>
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                    </form>
+                    <button id="loginbtn" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Transaction Area -->
+
+
+    <div id="Transiction-area">
+        <div class="container box-content ">
+            <h3 class="text-center text-muted mb-4">Your Account</h3>
+            <div class="row ">
+                <div class="col-4 ">
+                    <div class="text-center deposite-box box-pad">
+                        <h6>Deposite</h6>
+                        <h6>$00</h6>
+                    </div>
+                </div>
+                <div class="col-4  ">
+                    <div class="text-center withdraw-box box-pad">
+                        <h6>Withdraw</h6>
+                        <h6>$00</h6>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="text-center balance-box box-pad">
+                        <h6>Balance</h6>
+                        <h6>$00</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="box-content ">
+                        <h6>Deposite Here</h6>
+                        <input type="text" class="form-control" placeholder="$ Amount You Want to Deposite">
+                        <button class="btn btn-success mt-2">Deposite</button>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box-content ">
+                        <h6>Withdarw Here</h6>
+                        <input type="text" class="form-control" placeholder="$ Amount You Want to Withdarw">
+                        <button class="btn btn-success mt-2">Deposite</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -23,6 +107,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
