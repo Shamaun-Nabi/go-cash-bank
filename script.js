@@ -35,6 +35,8 @@ withdrawAmount.addEventListener("click", function () {
     const makeAmount = parseFloat(withdrawNumber);
    updateMoney("showWithdraw", makeAmount);
    updateMoney("show", -1*makeAmount);
+   document.getElementById("withdrawAmount").value = "";
+
 })
 
 
