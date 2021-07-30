@@ -55,20 +55,20 @@
             <div class="row ">
                 <div class="col-4 ">
                     <div class="text-center deposite-box box-pad">
-                        <h6>Deposite</h6>
-                        <h6>$00</h6>
+                        <h6>Deposit</h6>
+                        <h6>$ <span id="showDeposit">00</span></h6>
                     </div>
                 </div>
                 <div class="col-4  ">
                     <div class="text-center withdraw-box box-pad">
                         <h6>Withdraw</h6>
-                        <h6>$00</h6>
+                        <h6>$s <span id="showWithdraw">00</span></h6>
                     </div>
                 </div>
                 <div class="col-4 ">
                     <div class="text-center balance-box box-pad">
                         <h6>Balance</h6>
-                        <h6>$00</h6>
+                        <h6>$ <span id="show">00</span></h6>
                     </div>
                 </div>
 
@@ -78,17 +78,19 @@
             <div class="row">
                 <div class="col-md-6 ">
                     <div class="box-content ">
-                        <h6>Deposite Here</h6>
-                        <input type="text" class="form-control" placeholder="$ Amount You Want to Deposite">
-                        <button class="btn btn-success mt-2">Deposite</button>
+                        <h6>Deposit Here</h6>
+                        <input id="depositAmount" type="text" class="form-control"
+                            placeholder="$ Amount You Want to Deposit">
+                        <button id="addDeposit" class="btn btn-success mt-2">Deposit</button>
 
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="box-content ">
-                        <h6>Withdarw Here</h6>
-                        <input type="text" class="form-control" placeholder="$ Amount You Want to Withdarw">
-                        <button class="btn btn-success mt-2">Deposite</button>
+                        <h6>Withdraw Here</h6>
+                        <input id="withdrawAmount" type="text" class="form-control"
+                            placeholder="$ Amount You Want to Withdraw">
+                        <button class="btn btn-danger mt-2" id="withdraw">Withdraw</button>
 
                     </div>
                 </div>
